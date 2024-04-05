@@ -265,7 +265,7 @@ class _DetailsPageState extends State<DetailsPage> {
                     Fluttertoast.showToast(
                       msg: "Form Submitted successfully",
                       gravity: ToastGravity.TOP,
-                      backgroundColor: Colors.red,
+                      backgroundColor: Colors.green,
                     );
                   } else {
                     print('Please fill all the fields');
