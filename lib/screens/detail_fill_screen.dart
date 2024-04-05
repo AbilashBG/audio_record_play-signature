@@ -262,7 +262,11 @@ class _DetailsPageState extends State<DetailsPage> {
                       'recordedAudioPath': _recordedFilePath,
                       'signature': _signatureController.toPngBytes(),
                     };
-                    print(formData);
+                    Fluttertoast.showToast(
+                      msg: "Form Submitted successfully",
+                      gravity: ToastGravity.TOP,
+                      backgroundColor: Colors.red,
+                    );
                   } else {
                     print('Please fill all the fields');
                     Fluttertoast.showToast(
